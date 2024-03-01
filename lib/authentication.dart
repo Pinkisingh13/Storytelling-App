@@ -161,7 +161,7 @@ class Authentication {
           content: Text("successfully logged in! 👍 "),
         ),
       );
-      
+
       final fullName = user.user!.email!.split('@')[0];
       const passWord = 'null';
 
@@ -206,8 +206,11 @@ class Authentication {
     if (snapshot.docs.isNotEmpty) {
       final userData =
           snapshot.docs.map((e) => UserModel.fromSnapshot(e)).single;
+      print("done database");
       return userData;
     } else {
+      print("Not done database");
+
       throw Exception("User not found in Firestore");
     }
   }

@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:storytelling_app/models/start.dart';
 import 'package:storytelling_app/provider/riverpod.dart';
 import 'package:storytelling_app/screens/login_screen.dart';
 
-final currentUser = FirebaseAuth.instance.currentUser!;
+// final currentUser = FirebaseAuth.instance.currentUser!;
 
 class Profile extends ConsumerStatefulWidget {
   const Profile({super.key});
@@ -215,6 +214,7 @@ class ProfileState extends ConsumerState<Profile> {
                                         userData.email, userData.password);
                                     // ignore: use_build_context_synchronously
                                     Navigator.pushReplacement(
+                                        // ignore: use_build_context_synchronously
                                         context,
                                         PageTransition(
                                             child: const Login(),

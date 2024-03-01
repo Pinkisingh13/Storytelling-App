@@ -47,6 +47,7 @@ class _LoginState extends ConsumerState<Login>
     if (FirebaseAuth.instance.currentUser != null) {
       // ignore: use_build_context_synchronously
       Navigator.pushReplacement(
+        // ignore: use_build_context_synchronously
         context,
         PageTransition(
           child: const BottomNavBar(),
@@ -74,6 +75,7 @@ class _LoginState extends ConsumerState<Login>
     if (FirebaseAuth.instance.currentUser != null) {
       // ignore: use_build_context_synchronously
       Navigator.pushReplacement(
+        // ignore: use_build_context_synchronously
         context,
         PageTransition(
           child: const BottomNavBar(),
@@ -89,13 +91,12 @@ class _LoginState extends ConsumerState<Login>
   // Login with Google
   void loginWithGoogle() async {
     final auth = ref.watch(authenticationProvider);
-
     try {
       await auth.signInWithGoogle();
-
       if (FirebaseAuth.instance.currentUser != null) {
         // ignore: use_build_context_synchronously
         Navigator.pushReplacement(
+          // ignore: use_build_context_synchronously
           context,
           PageTransition(
             child: const BottomNavBar(),
