@@ -38,11 +38,18 @@ Welcome to my project! A small attempt to make an Storytelling Application devel
 ![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/14.png)
 
 ## Videos
-<h3 align="center">Splash & Create Account</h3>
-[video](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/3.gif)
+<h3 align="center">Splash & Signup</h3>
 
-<h3 align="center">HomeScreen & more..</h3>
-[video](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/4.gif)
+![video](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/createaccount.gif)
+
+<h3 align="center">HomeScreen</h3>
+
+![video](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/homescreen.gif)
+
+<h3 align="center">Login Screen </h3>
+  
+![video](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/googleAuth.gif)
+
 
 ## ⚙️ Installation Steps
 ### Clone the repository
