@@ -37,7 +37,7 @@ Welcome to my project! A small attempt to make an Storytelling Application devel
 
 ![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/14.png)
 
-## Videos
+## Live Demonstration
 <h3 align="center">Splash & Signup</h3>
 
 ![video](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/createaccount.gif)
